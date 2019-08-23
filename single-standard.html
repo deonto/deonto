@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+<head>
+
+    <!--- basic page needs
+    ================================================== -->
+    <meta charset="utf-8">
+    <title>Entropy - Lyceum</title>
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <!-- mobile specific metas
+    ================================================== -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- CSS
+    ================================================== -->
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/vendor.css">
+    <link rel="stylesheet" href="css/main.css">
+
+    <!-- script
+    ================================================== -->
+    <script src="js/modernizr.js"></script>
+
+    <!-- favicons
+    ================================================== -->
+    <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+    <link rel="manifest" href="site.webmanifest">
+
+</head>
+
+<body class="ss-bg-white">
+
+    <!-- preloader
+    ================================================== -->
+    <div id="preloader">
+        <div id="loader" class="dots-fade">
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+    </div>
+
+    <div id="top" class="s-wrap site-wrapper">
+
+        <!-- site header
+        ================================================== -->
+        <header class="s-header header">
+
+            <div class="header__top">
+                <div class="header__logo">
+                    <a class="site-logo" href="index.html">
+                        <img src="images/logo2-1.png" alt="Homepage">
+                    </a>
+                </div>
+
+                <div class="header__search">
+
+                    <form role="search" method="get" class="header__search-form" action="#">
+                        <label>
+                            <span class="hide-content">Search for:</span>
+                            <input type="search" class="header__search-field" placeholder="Type Keywords" value="" name="s" title="Search for:" autocomplete="off">
+                        </label>
+                        <input type="submit" class="header__search-submit" value="Search">
+                    </form>
+
+                    <a href="#0" title="Close Search" class="header__search-close">Close</a>
+
+                </div>  <!-- end header__search -->
+
+                <!-- toggles -->
+                <a href="#0" class="header__search-trigger"></a>
+                <a href="#0" class="header__menu-toggle"><span>Menu</span></a>
+
+            </div>
+
+            <nav class="header__nav-wrap">
+
+                <ul class="header__nav">
+                  <li class="current"><a href="index.html" title="">Home</a></li>
+                  <li class="has-children">
+                      <a href="#0" title="">Academia</a>
+                      <ul class="sub-menu">
+                      <li><a href="category.html">Literature</a></li>
+                      <li><a href="category.html">Mathematics</a></li>
+                      <li><a href="category.html">Philosophy</a></li>
+                      <li><a href="category.html">Science</a></li>
+                      <li><a href="category.html">Security</a></li>
+                      </ul>
+                  </li>
+                  <li class="has-children">
+                      <a href="#0" title="">Miscellaneous</a>
+                      <ul class="sub-menu">
+                      <li><a href="single-video.html">Site Updates</a></li>
+                      <li><a href="single-audio.html">The Requisition</a></li>
+                      <li><a href="single-gallery.html">Gallery Post</a></li>
+                      <li><a href="single-standard.html">Standard Post</a></li>
+                      </ul>
+                  </li><li><a href="page-about.html" title="">About</a></li>
+                    <li><a href="page-contact.html" title="">Contact</a></li>
+                </ul> <!-- end header__nav -->
+
+                <ul class="header__social">
+                    <li class="ss-facebook">
+                        <a href="https://facebook.com/">
+                            <span class="screen-reader-text">Facebook</span>
+                        </a>
+                    </li>
+                    <li class="ss-twitter">
+                        <a href="#0">
+                            <span class="screen-reader-text">Twitter</span>
+                        </a>
+                    </li>
+                    <li class="ss-dribbble">
+                        <a href="#0">
+                            <span class="screen-reader-text">Instagram</span>
+                        </a>
+                    </li>
+                    <li class="ss-behance">
+                        <a href="#0">
+                            <span class="screen-reader-text">Behance</span>
+                        </a>
+                    </li>
+                </ul>
+
+            </nav> <!-- end header__nav-wrap -->
+
+        </header> <!-- end s-header -->
+
+
+        <!-- site content
+        ================================================== -->
+        <div class="s-content content">
+            <main class="row content__page">
+
+                <article class="column large-full entry format-standard">
+
+                    <div class="media-wrap entry__media">
+                        <div class="entry__post-thumb">
+                            <img src="images/thumbs/single/standard/standard-1000.jpg"
+                                 srcset="images/thumbs/single/standard/standard-2000.jpg 2000w,
+                                         images/thumbs/single/standard/standard-1000.jpg 1000w,
+                                         images/thumbs/single/standard/standard-500.jpg 500w" sizes="(max-width: 2000px) 100vw, 2000px" alt="">
+                        </div>
+                    </div>
+
+                    <div class="content__page-header entry__header">
+                        <h1 class="display-1 entry__title">
+                        The Math behind Password Entropy</h1>
+                        <ul class="entry__header-meta">
+                            <li class="author">By <a href="#0">John Nagano</a></li>
+                            <li class="date">August 15, 2019</li>
+                            <li class="cat-links">
+                                <a href="#0">Mathematics</a><a href="#0">Security</a>
+                            </li>
+                        </ul>
+                    </div> <!-- end entry__header -->
+
+                    <div class="entry__content">
+
+                      <blockquote>
+                          <p>
+                          "If your password encrypts your history then its a PASTWORD"
+                          </p>
+                          <cite>RD</cite>
+                      </blockquote>
+                        <p class="lead drop-cap">
+                        E stands for "entropy," which is the opposite of an ordered pattern.   Entropy is good: the bigger the E, the harder a password is to crack.
+                        </p>
+                        <p>
+                        <img src="https://www.pleacher.com/mp/mgifs/gifs19/form26.gif" alt="">
+                        </p>
+                        <p>
+                          We calculate password entropy by first looking at the number of various characters that make up a password.
+                          There are 26 characters from the English alphabet.
+                          so if you had a password that was <i>Password</i> that would increase your list to 52 characters.
+                          <i>Here, I have listed the total sum of all UTF-8 standard characters<br></i>
+                        </p>
+
+                        <p>
+                          <b>Lowercase          -            26<br>
+Lower & Upper Case      -       52<br>
+Alphanumeric          -         36<br>
+Alphanumeric & Upper Case   -   62<br>
+Common ASCII Characters    -    30<br>
+Diceware Words List    -     7,776<br>
+English Dictionary Words - 171,000<br></b><br>
+Password entropy is measured in <a style="text-decoration:none" href="https://en.wikipedia.org/wiki/Bit"><font color="white">bits</a> which is how you will mathematically figure out how secure your passwords are. Below I have listed a chart that, when applied to your results will inform you how secure your password is.<br>
+<b>Below 28 bits - Very Weak<br>
+28-35 bits - Weak<br>
+36-59 bits - Reasonable<br>
+60-127 bits - Strong<br>
+128 and Above - Very Strong<br></b>
+                        </p>
+                        <p class="entry__tags">
+                            <span>Post Tags</span>
+
+                            <span class="entry__tag-list">
+                                <a href="#0">orci</a>
+                                <a href="#0">lectus</a>
+                                <a href="#0">varius</a>
+                                <a href="#0">turpis</a>
+                            </span>
+
+                        </p>
+                    </div> <!-- end entry content -->
+
+                    <div class="entry__pagenav">
+                        <div class="entry__nav">
+                            <div class="entry__prev">
+                                <a href="#0" rel="prev">
+                                    <span>Previous Post</span>
+                                    Kaprekars Number
+                                </a>
+                            </div>
+                            <div class="entry__next">
+                                <a href="#0" rel="next">
+                                    <span>Next Post</span>
+                                    To Be Uploaded Soon
+                                </a>
+                            </div>
+                        </div>
+                    </div> <!-- end entry__pagenav -->
+
+                    <div class="entry__related">
+                        <h3 class="h2">Related Articles</h3>
+
+                        <ul class="related">
+                            <li class="related__item">
+                                <a href="single-standard.html" class="related__link">
+                                    <img src="images/thumbs/masonry/walk-600.jpg" alt="">
+                                </a>
+                                <h5 class="related__post-title">Using Repetition and Patterns in Photography.</h5>
+                            </li>
+                            <li class="related__item">
+                                <a href="single-standard.html" class="related__link">
+                                    <img src="images/thumbs/masonry/dew-600.jpg" alt="">
+                                </a>
+                                <h5 class="related__post-title">Health Benefits Of Morning Dew.</h5>
+                            </li>
+                            <li class="related__item">
+                                <a href="single-standard.html" class="related__link">
+                                    <img src="images/thumbs/masonry/rucksack-600.jpg" alt="">
+                                </a>
+                                <h5 class="related__post-title">The Art Of Visual Storytelling.</h5>
+                            </li>
+                        </ul>
+                    </div> <!-- end entry related -->
+
+                </article> <!-- end column large-full entry-->
+
+                    <div class="column large-12 comment-respond">
+
+                        <!-- START respond -->
+                        <div id="respond">
+
+                            <h3 class="h2">Add Comment <span>Your email address will not be published</span></h3>
+
+                            <form name="contactForm" id="contactForm" method="post" action="" autocomplete="off">
+                                <fieldset>
+
+                                    <div class="form-field">
+                                        <input name="cName" id="cName" class="full-width" placeholder="Your Name" value="" type="text">
+                                    </div>
+
+                                    <div class="form-field">
+                                        <input name="cEmail" id="cEmail" class="full-width" placeholder="Your Email" value="" type="text">
+                                    </div>
+
+                                    <div class="form-field">
+                                        <input name="cWebsite" id="cWebsite" class="full-width" placeholder="Website" value="" type="text">
+                                    </div>
+
+                                    <div class="message form-field">
+                                        <textarea name="cMessage" id="cMessage" class="full-width" placeholder="Your Message"></textarea>
+                                    </div>
+
+                                    <input name="submit" id="submit" class="btn btn--primary btn-wide btn--large full-width" value="Add Comment" type="submit">
+
+                                </fieldset>
+                            </form> <!-- end form -->
+
+                        </div>
+                        <!-- END respond-->
+
+                    </div> <!-- end comment-respond -->
+
+                </div> <!-- end comments-wrap -->
+            </main>
+
+        </div> <!-- end s-content -->
+
+
+        <!-- footer
+        ================================================== -->
+        <footer class="s-footer footer">
+            <div class="row">
+                <div class="column large-full footer__content">
+                    <div class="footer__copyright">
+                        <span>© Copyright Typerite 2019</span>
+                        <span>Design by <a href="https://www.styleshout.com/">StyleShout</a></span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="go-top">
+                <a class="smoothscroll" title="Back to Top" href="#top"></a>
+            </div>
+        </footer>
+
+    </div> <!-- end s-wrap -->
+
+
+    <!-- Java Script
+    ================================================== -->
+    <script src="js/jquery-3.2.1.min.js"></script>
+    <script src="js/plugins.js"></script>
+    <script src="js/main.js"></script>
+
+</body>
